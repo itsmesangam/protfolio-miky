@@ -1,0 +1,29 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #0c0c1d;
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+* {
+    box-sizing: border-box;
+}
+
+.hero-div {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("/hero.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
